@@ -53,7 +53,7 @@ However, it is important to understand that the payload (data) that can be sent 
 </p>
 
 
-One BIG advantage of Sigfox's network is how the LPWAN communication works: devices are not connected or paired to antennas, nor do they need to signal their existence regularly (like in cellular networks). LPWAN works on the *Aloha mechanism*: "if you have data to send, just send it!"
+One BIG advantage of Sigfox's network is how the LPWAN communication works: devices are not connected or paired to antennas, nor do they need to signal their existence regularly (unlike cellular networks). LPWAN works on the *Aloha mechanism*: "if you have data to send, just send it!"
 
 Antennas are constantly in "Listening mode" and devices can send data whenever they need to (the data is encrypted with an authentification key).  
 * If antennas are in the area, they will capture it and send it to Sigfox's cloud (through an internet connection)  
