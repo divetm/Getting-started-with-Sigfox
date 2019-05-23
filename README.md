@@ -499,7 +499,7 @@ The same goes for the rest. So, in the ```MODE_FRIDGE```, you will get messages 
 ###### Binary representation of the message ```0xE639B8501007``` sent by the Sens'it in mode Fridge, and how to decode it
 
 Most of the values are represented by unsigned 16 bits integers (u16) - the way you convert those integers into the real values measured is explained at the top of the payload's definition.  
-In the payload some values' binary representation are cut in half into their MSB and their LSB (in the ```discovery.c``` file with the help of ```>>``` operators), as you can see in the structure of the payload (MSB means Most Signficant Byte and LSB means Least Significant Byte).  
+In the payload some values' binary representation are cut in half into their MSB and their LSB (in the [```discovery.c```](https://github.com/divetm/Getting-started-with-Sigfox/blob/master/Sensit_project/sdk/src/resources/discovery.c) file with the help of ```>>``` operators), as you can see in the structure of the payload (MSB means Most Signficant Byte and LSB means Least Significant Byte).  
 The temperature, for example, is represented by a signed 16 bit integer (s16). Its MSB is actually just 2 bits long, so it fits in the slot that is normally used for ```special_value```. Then its LSB is 8 bits long, so the temperature is actually encoded into 10 bits.
 
 As you can see, for this example, we augmented the size of the payload from 4 to 6 and added these to bytes to the structure of the payload (compared to what ```discovery.h``` looks like when you download the SDK):
