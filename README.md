@@ -589,4 +589,4 @@ You could also imagine sending an email or SMS every time your Sens'it sends an 
 Conclusion
 ----
 I hope this gives you a good introduction to Sigfox and shows you the uncountable possibilities that this network represents.  
-It's your turn now to explore and create new application - you've seen how easy it can be!
+It's your turn now to explore and create new applications - you've seen how easy it can be!
