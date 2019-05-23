@@ -64,7 +64,7 @@ The only expense on your side is the connectivity fee that local operators will 
 
 So, what is that BIG advantage we were talking about?  
 There are actually three!  
-First, this means that your device is constantly in "Sleep mode", and only turns on when it needs to send a message (max 140 times a day, so once every 10 minutes and 16 seconds more or less). This explains why it consumes so little energy (less batteries to change -> IoT solutions are more ecological and economical).  
+First, this means that your device is constantly in "Sleep mode", and only turns on when it needs to send a message (max 140 times a day, so once every 10 minutes and 16 seconds more or less). **This explains why it consumes so little energy (less batteries to change -> IoT solutions are more ecological and economical)**.  
 But, most importantly: **your signal can travel over very long distances and it cannot be jammed!** *Unless you have an army-graded jammer...*
 
 
