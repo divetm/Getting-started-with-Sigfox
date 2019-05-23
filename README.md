@@ -94,7 +94,7 @@ Downlink messages cannot exceed 8 bytes, and Sigfox only allows 4 downlink messa
 Here you can see what UNB means and how Sigfox uses its bandwidth to send messages in both directions:
 
 <p align="center">
-  <img width="700" src="https://github.com/divetm/Getting-started-with-Sigfox/blob/master/images/frequencies.png">
+  <img width="900" src="https://github.com/divetm/Getting-started-with-Sigfox/blob/master/images/frequencies.png">
 </p>
 
 ###### *(RCx are the different radio regions in the world - the public radio frequency used by Sigfox in each region of the world. Your device has to be compatible with your region's radio frequency - the antennas around you will be listenning on that frequency)*
