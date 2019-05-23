@@ -276,7 +276,7 @@ restore_backup:
 ```
 
 ### Troubleshoot
-Make yourself familiar with how your folders are structured, so you can know where to find header files (```project_folder > sdk > inc```) and the .c files (```project_folder > sdk > src```). A lot of errors can come from this and a lot of solutions can be found in those files.
+Make yourself familiar with how your folders are structured, so you know where to find header files (```project_folder > sdk > inc```) and the .c files (```project_folder > sdk > src```). A lot of errors can come from this and a lot of solutions can be found in these files.
 
 **Make sure you generate a backup file and that you don't delete it!**  
 Whenever you restore the backup into the device, remember you will need to re-update it before uploading any other code (if not, it will fail).
