@@ -136,7 +136,7 @@ Once that is set up you will be able to see your messages being sent and decide 
 One of the things you could do with the data sent by your devices is building a dashboard to visualize them.
 Two platforms can be very useful for that: Losant and Ubidots. There are many other platforms that can do this, feel free to use the one that you prefer.
 
-[How to build a dashboard on Losant to visualize data received through Sigfox callbacks](https://www.losant.com/blog/collect-monitor-visualize-sigfox-data)
+[How to build a dashboard on Losant to visualize data received through Sigfox callbacks](https://www.losant.com/blog/collect-monitor-visualize-sigfox-data)  
 [How to do that with Ubidots](https://help.ubidots.com/technical-resources/setup-your-sigfox-callback-to-talk-with-ubidots-cloud)
 
 These platforms also allow you to send a downlink message as a response to a callback. To setup that kind of downlink messages  follow [these steps](https://github.com/sigfox/sigfox-downlink).  
