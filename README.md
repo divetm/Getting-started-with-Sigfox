@@ -297,7 +297,7 @@ Build your own application with Sens'it
 ----
 
 ### Presentation
-Once the setup is done and you've gone through the troubleshoot list way more times than you want to admit, you're ready to build your own application with confidence.
+Once the setup is done and you've gone through the troubleshoot list way more times than you'd like to admit, you're ready to build your own application with confidence.
 
 To check that everything is fine try writing ```make main``` or ```make temperature``` (or any of the commands in the Makefile that have already been coded by Sens'it's team - look for them in the ```COMPLETE BUILDING``` part) and then ```make prog``` (**with your Sens'it connected and in bootloader mode**). If it loads correctly, everything's good!
 
