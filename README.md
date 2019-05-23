@@ -133,7 +133,7 @@ You will have to setup callbacks or use Sigfox's REST API. Learn more on that [h
 Once that is set up you will be able to see your messages being sent and decide what Sigfox should do with them (like a manufacturer would do to build their own app).
 
 ### Visualizing your data and Sending instructions: Callbacks and Downlinks
-One of things you could do with the data sent by your devices is building a dashboard to visualize them.
+One of the things you could do with the data sent by your devices is building a dashboard to visualize them.
 Two platforms can be very useful for that: Losant and Ubidots. There are many other platforms that can do this, feel free to use the one that you prefer.
 
 [How to build a dashboard on Losant to visualize data received through Sigfox callbacks](https://www.losant.com/blog/collect-monitor-visualize-sigfox-data)
