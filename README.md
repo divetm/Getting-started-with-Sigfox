@@ -166,7 +166,7 @@ AT$I = Unit
 Unit ranges any value from 0 to 11.
 ```
 
-The units meaning might change from one device to the other (depends on the module used), check for what yours means on your device datasheet (if available...). For example, 1 might give you the ID and 11 the PAC.
+The units meaning might change from one device to the other (depends on the module used), check it on your device datasheet (if available...). For example, 1 might give you the ID and 11 the PAC.
 
 What you need to know regarding Downlink messages is that the network will know your device is waiting for a Downlink message if in the message that it sent (```AT$SF=frame``` command) it includes ```,1``` at the end of it.  
 Example:  
