@@ -301,12 +301,12 @@ The first thing you want to do is fork (duplicate and rename) from ```main.c``` 
 In this case, the ```main_FRIDGE.c``` file started with the empty template of ```main.c```. Parts from ```main_MAGNET.c```, ```main_VIBRATION.c``` and ```main_TEMPERATURE.c``` were then inserted (a few lines of ```main.c``` were also removed) to use the sensors as needed.  
 Don't forget to add ```#include "discovery.h"``` at the top of the blank template (because it is not included in main.c).
 
-Find the whole code [here](main_FRIDGE.c)
+Find the whole code [here](https://github.com/divetm/Getting-started-with-Sigfox/blob/master/Sensit_project/sdk/src/main_FRIDGE.c)
 
 You will then need to modify ```discovery.c``` and ```discovery.h``` accordingly.
 
 ### discovery.c
-In the [```discovery.c file```](discovery.c) you need to modify the ```DISCOVERY_build_payload``` function. In this case we added a new mode:
+In the [```discovery.c file```](https://github.com/divetm/Getting-started-with-Sigfox/blob/master/Sensit_project/sdk/src/resources/discovery.c) you need to modify the ```DISCOVERY_build_payload``` function. In this case we added a new mode:
 
 ```
 ...
@@ -344,7 +344,7 @@ else if ( mode == MODE_FRIDGE )
 ```
 
 ### discovery.h
-As you can see this implies adding a definition for MODE_FRIDGE and some new elements of the payload (fridge_vibration, fridge_door, event_counter_fridge) in the [```discovery.h``` header file](discovery.h). You will also need to define what your payload should look like:
+As you can see this implies adding a definition for MODE_FRIDGE and some new elements of the payload (fridge_vibration, fridge_door, event_counter_fridge) in the [```discovery.h``` header file](https://github.com/divetm/Getting-started-with-Sigfox/blob/master/Sensit_project/sdk/inc/resources/discovery.h). You will also need to define what your payload should look like:
 
 Adding the MODE_FRIDGE definition:
 
@@ -502,7 +502,7 @@ struct {
 ### Makefile
 This is the last thing you want to do. It will allow you to build your code by simply writing ```make app``` (in this case ```make fridge```) and upload it to your Sens'it by writing ```make prog``` (needless to say: once the Sens'it is updated, connected and in bootloader mode).
 
-The last modifications you want to do to the script is in the [Makefile](makefile).
+The last modifications you want to do to the script is in the [Makefile](https://github.com/divetm/Getting-started-with-Sigfox/blob/master/Sensit_project/sdk/Makefile).
 
 First, add the line ```app: clean dir $(OBJS) main_APP bin``` (in this case, ```fridge: clean dir $(OBJS) main_FRIDGE bin```) to this part of the file:
 
