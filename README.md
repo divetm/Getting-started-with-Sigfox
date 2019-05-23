@@ -317,7 +317,7 @@ The first thing you want to do is fork (duplicate and rename) from ```main.c``` 
 In this case, the ```main_FRIDGE.c``` file started with the empty template of ```main.c```. Parts from ```main_MAGNET.c```, ```main_VIBRATION.c``` and ```main_TEMPERATURE.c``` were then inserted (a few lines of ```main.c``` were also removed) to use the sensors as needed.  
 Don't forget to add ```#include "discovery.h"``` at the top of the blank template (because it is not included in main.c).
 
-Find the whole code [here](https://github.com/divetm/Getting-started-with-Sigfox/blob/master/Sensit_project/sdk/src/main_FRIDGE.c)
+Find the whole code for the main [here](https://github.com/divetm/Getting-started-with-Sigfox/blob/master/Sensit_project/sdk/src/main_FRIDGE.c).
 
 You will then need to modify ```discovery.c``` and ```discovery.h``` accordingly.
 
