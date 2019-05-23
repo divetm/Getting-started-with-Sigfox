@@ -58,6 +58,11 @@ One BIG advantage of Sigfox's network is how the LPWAN communication works: devi
 Antennas are constantly in "Listening mode" and devices can send data whenever they need to (the data is encrypted with an authentification key).  
 * If antennas are in the area, they will capture it and send it to Sigfox's cloud (through an internet connection)  
 * If there are no antennas in the area, the message will be lost - in order to increase the chance of an antenna receiving the message, every device will send the same message three times at different moments and frequencies, enabling time and frequency diversity  
+
+<p align="center">
+  <img width="700" src="https://github.com/divetm/Getting-started-with-Sigfox/blob/master/images/uplink.png">
+</p>
+
 Therefore, being sure that coverage is available in your area is very important. But worry not, Sigfox network is in constant deployment and offers a wide coverage already, nation-wide in some countries. Check their coverage map [here](https://www.sigfox.com/en/coverage).  
 Sigfox takes care of the deployment of their own antennas. Which means that you won't need to invest in antennas, their installation nor their maintenance etc., zero CAPEX for you.  
 The only expense on your side is the connectivity fee that local operators will charge you. Check the pricing for your country [here](https://buy.sigfox.com/buy).
@@ -74,12 +79,6 @@ But, most importantly: **your signal can travel over very long distances and it 
 
 
 To jam a signal you have to jam the receiver. As there is no pairing between the device and the antennas, the only receivers in the Sigfox network are the antennas. So, to jam a Sigfox-ready device's message you'd have to jam all the surrounding antennas (one is not enough, since all surrounding antennas will be listenning - spatial diversity).
-
-
-<p align="center">
-  <img width="700" src="https://github.com/divetm/Getting-started-with-Sigfox/blob/master/images/uplink.png">
-</p>
-
 
 You could also imagine drowning the device's message in noise, but that too is impossible! As shown in the graph above, the LPWAN uses Ultra Narrow Band (UNB) signals. Sigfox's bandwidth is very narrow (therefore messages sent through it have to be small - 12 bytes max) but this means that every signal will have a very high density - a lot of energy concentrated in an ultra narrow band. A jammer cannot produce enough energy to drown those signals in noise.
 
