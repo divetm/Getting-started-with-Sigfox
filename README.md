@@ -113,7 +113,7 @@ If you buy a ready-to-use device, it will most certainly already be activated.
 If you're using a devkit (as the ones [here](#devkits-and-firmware)) then you will need to activate it. Follow the very simple steps listed here: https://support.sigfox.com/docs/sigfox-activate:-when-and-how-to-use-it
 
 Your device will have an ID that it uses to identify itself on the network (check for a label on the back of your device with a mention of an ID).  
-It also uses a sencond number called Porting Authorization Code (PAC) that you can probably find following [these](https://support.sigfox.com/docs/device-idpac-couple) instructions.
+It also uses a second number called Porting Authorization Code (PAC) that you can probably find following [these](https://support.sigfox.com/docs/device-idpac-couple) instructions.
 
 These identifiers will come in handy if you want to register your device on Sigfox's backend.
 [This document](https://storage.sbg1.cloud.ovh.net/v1/AUTH_669d7dfced0b44518cb186841d7cbd75/staging_docs/att10756424-Customer%20helpbook_2017.pdf) explains what Sigfox's backend is and how to use it.  
