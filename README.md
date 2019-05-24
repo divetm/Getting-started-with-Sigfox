@@ -44,7 +44,7 @@ Sigfox invented a Radio Protocol and used it to build a global network adapted t
 Sigfox's network enables your everyday object to send data captured by its sensors.  
 The data can then be processed and give new insights on optimizable processes.  
 However, it is important to understand that the payload (data) that can be sent over Sigfox's network is limited in:  
-* size (maximum 12 bytes) - this is instrisic to how the LPWAN technology works, we will come back to that;
+* size (maximum 12 bytes) - this is intrinsic to how the LPWAN technology works, we will come back to that;
 * frequency (140 messages a day max) - that is due to the fact that Sigfox uses a public radio frequency and cannot hog it
 
 
@@ -308,7 +308,7 @@ It will:
 * keep track of the temperature and humidity inside the fridge (one message sent every 20 minutes and in any message sent by the device)
 * count the number of times the door has been opened (if it is opened way more times than products are sold, it might mean the products inside are too hot or that the fridge is empty...)
 * send an alert if the door is left open (more than 1 minute)
-* send an alert if the fridge is being moved too violently (in case of robery for example)
+* send an alert if the fridge is being moved too violently (in case of robbery for example)
 * send an alert if the button is pressed twice quickly (we could imagine this being used as an Amazon Dash button - if you need more Coke in your fridge, press the button and more Coke will be delivered to you)
 
 ### Main
