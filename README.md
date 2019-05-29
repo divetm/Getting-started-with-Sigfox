@@ -235,7 +235,11 @@ It embeds a button, two LEDs, a temperature & relative humidity sensor, an ambie
 The Sens'it SDK makes it possible for you to change the behavior of the device to match your needs. Here we take advantage of that to turn the Sens'it into a multi-sensor device for cold storage management.
 
 ### SDK and Setup
+
+The first thing you want to do is register your Sens'it as a Devkit. You will find info on how to do that [here](https://storage.sbg1.cloud.ovh.net/v1/AUTH_669d7dfced0b44518cb186841d7cbd75/dev_medias/build/4059ae1jm2231vw/sensit-3-devkit-activation.pdf).
   
+After that you will need to download and setup the SDK.
+
 For Windows: simply follow [these instructions](https://github.com/sigfox/sensit-sdk#sensit-sdk)
 
 For Mac: the [same instructions](https://github.com/sigfox/sensit-sdk#sensit-sdk) apply. However, these next few tips will also come in handy:
