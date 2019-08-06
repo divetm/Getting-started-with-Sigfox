@@ -211,6 +211,7 @@ Once you get going, try connecting your prototypes to Sigfox's backend and check
 These links can be very useful:
 * https://build.sigfox.com/technical-quickstart  
 * https://build.sigfox.com/backend-callbacks-and-api  
+
 Learn how to parse and decode the data contained in the payload sent by your device. Use a platform (e.g. Losant or Ubidots like explained [here](#visualizing-your-data-and-sending-instructions-callbacks-and-downlinks)), if you wish, to build your first complete application with decoding, workflows and data visualization.
 
 Sens'it
